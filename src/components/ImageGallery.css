@@ -1,0 +1,19 @@
+.gallery-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
